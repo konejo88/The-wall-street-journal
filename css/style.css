@@ -1,0 +1,33 @@
+.zagol{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'My Soul', cursive;
+  font-size: 70px;
+  color: darkblue;
+  font-weight: 900;
+}
+.navbar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 450px;
+  
+}
+.navbar a {
+  color: #575656;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 800;
+}
+.mir,
+.vorld{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	width: fit-content;
+}
+img{
+    width: 300px;
+    object-fit: contain;
+}
+
